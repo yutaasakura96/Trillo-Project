@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-    <title>trillo &mdash; Your all-in-one booking app</title>
+    <title>Trillo &mdash; Your all-in-one booking app</title>
   </head>
   <body>
     <div class="container">
@@ -55,7 +55,51 @@
         </nav>
       </header>
       <div class="content">
-        <nav class="sidebar">Navigation</nav>
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft"></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car rental</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; Built by YUTA ASAKURA for the ADVANCE CSS AND SASS course by
+            Jonas Schmedtmann. Copyright © by Jonas Schmedtmann
+          </div>
+        </nav>
+
         <main class="hotel-view">hotel view</main>
       </div>
     </div>
